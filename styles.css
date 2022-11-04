@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 9px;
+  width: 300px;
+  padding: 10px;
+  padding-bottom: 30px;
+  
+}
+
+.span-1{
+  margin-right: 75px;
+  color: hsl(178, 100%, 50%);
+  font-size: 18px;
+  font-family: Outfit, sans-serif;
+  font-weight: 300;
+}
+
+.img-1 {
+width: 280px ;
+display: flex;
+border-radius: 9px;
+margin-top: 10px;
+
+
+}
+
+.img-1:hover {
+  cursor: pointer;
+}
+
+
+
+
+.container p2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-family: Outfit, sans-serif;
+  font-weight: 300;
+}
+
+
+p1{
+  color: hsl(215, 51%, 70%);
+  Font-size : 18px;
+  margin-left: 10px;
+  font-family: Outfit, sans-serif;
+  font-weight: 300;
+}
+
+.container h1 {
+font-size: 23px;
+align-self: flex-start  ;
+margin-left: 10px;
+color: hsl(0, 0%, 100%);
+font-family: Outfit, sans-serif;
+font-weight: 600;
+}
+
+.container h1:hover {
+  cursor: pointer;
+}
+.container h1:active {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  width: 280px;
+  height: 1px;
+  border: none;
+  background-color: hsl(215, 32%, 27%);
+  margin-bottom: 20px;
+}
+
+
+.profile {
+height: 30px;
+border: solid;
+border-radius: 100%;
+border-color: white;
+border-width: 2px;
+margin-right: 10px;
+}
+
+p3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-family: Outfit, sans-serif;
+  font-weight: 300;
+
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  margin-left: 4px;
+  
+}
+
+span:hover {
+  cursor: pointer;
+}
+span:active {
+  color: hsl(178, 100%, 50%);
+}
+
+
+
+
+
